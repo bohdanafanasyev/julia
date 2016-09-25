@@ -31,3 +31,6 @@ It consists of two main parts, the presentation one for the visitors and adminis
 
 [Flickity](https://github.com/metafizzy/flickity) - touch, responsive, flickable carousels<br>
 [Moment](https://github.com/moment/moment) - a lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
+
+<br>
+## License
