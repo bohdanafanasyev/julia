@@ -44,6 +44,7 @@ Feel free to clone and experiment with project on your own.
 You can proceed to the [this link](https://docs.mongodb.com/manual/installation/) in order get your version of MongoDB
 
 ##### Ready to go
+
 1.In your terminal window navigate to the cloned project folder
 2. Run `npm install` to get all the dependencies
 3. Run `meteor` to start up the server on `localhost:3000`
