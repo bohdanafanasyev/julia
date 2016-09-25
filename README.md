@@ -17,8 +17,8 @@ It consists of two main parts, the presentation one for the visitors and adminis
 
 #### Server
 
-[Meteor.js](https://github.com/meteor/meteor)
+[Meteor.js](https://github.com/meteor/meteor) - ultra-simple environment for building modern web applications.
 
 #### DataBase
 
-[MongoDb](https://github.com/mongodb/mongo)
+[MongoDb](https://github.com/mongodb/mongo) - building on the best of relational with the innovations of NoSQL
