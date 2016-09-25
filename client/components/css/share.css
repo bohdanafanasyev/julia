@@ -1,0 +1,96 @@
+.nav-item p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 7px;
+  padding-bottom: 4px !important;
+  padding-top: .425rem;
+  cursor: default;
+}
+
+.social-share {
+	display: none;
+  width: 200px;
+  height: 35px;
+  float: left;
+  position: absolute;
+  right: 100px;
+}
+
+.social-share a {
+  color: white;
+}
+
+.share-button {
+  cursor: pointer;
+}
+
+.share {
+  line-height: 36px;
+	font-size: 30px;
+	color: white;
+	margin-right: 20px;
+  height: 40px;
+  display: inline-block;
+}
+
+.fbSvg  {
+  width: 20px;
+  height: 20px;
+  transition: 1s ease;
+}
+
+.vkSvg, .gpSvg, .twSvg, .ptSvg {
+  width: 20px;
+  height: 20px;
+}
+
+.fillPath {
+  transition: fill 1s ease;
+}
+
+.share:hover .fbSvg .fillPath, .share:hover .vkSvg .fillPath, .share:hover .gpSvg .fillPath, .share:hover .twSvg .fillPath, .share:hover .ptSvg .fillPath {
+  fill: rgb(200,200,200);
+}
+
+svg {
+  display: inline-block;
+}
+
+
+
+/****************************
+Media queries
+****************************/
+
+
+@media only screen and (max-width: 679px) {
+
+  .share-navbar {
+    height: 46px;
+    width: calc(100vw - 45px);
+    padding-bottom: 52px;
+  }
+
+  .nav-back {
+    position: absolute;
+    right: 22px;
+  }
+
+  .nav-share {
+    position: absolute;
+  }
+
+  .nav-social {
+    left: 22px;
+    margin-top: 0px !important
+  }
+
+  .share-button, .nav-share p {
+    margin-left: 0 !important;
+  }
+
+  .nav-back {
+    z-index: 100;
+  }
+
+}

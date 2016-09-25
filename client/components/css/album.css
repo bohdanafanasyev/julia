@@ -1,0 +1,150 @@
+.album-title {
+  margin-top: 10px !important;
+  text-transform: uppercase;
+}
+
+.photo-description {
+  line-height: 42px;
+  font-weight: 400;
+  font-style: italic;
+  display: block;
+  float: right;
+}
+
+.album-title-header {
+  font-size: 24px;
+  margin-top: -5px !important;
+  margin-bottom: 22px;
+}
+
+
+html { overflow-y: scroll; }
+
+
+
+/***************************
+Album Forms
+***************************/
+
+.form-album {
+  width: 812px !important;
+  padding: 0 !important;
+
+}
+
+#modalAddAlbum {
+  height: 260px;
+}
+
+.form-headliner {
+  height: 149px;
+  width: 780px;
+  position: relative;
+  right: 16px;
+  margin-top: 26px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.album-header {
+  width: 328px !important;
+  float: left !important;
+  order: 1;
+}
+
+.album-photo-description {
+  width: 228px !important;
+  margin-top: 21px !important;
+}
+
+.album-photo-description input {
+  margin-left: -7px !important;
+}
+
+.album-photo-description p {
+  margin-left: -7px !important;
+  margin-bottom: 5px !important;
+}
+
+.form-album-header {
+  width: 228px !important;
+}
+
+.album-header p {
+  margin: 0 !important;
+  line-height: 22px;
+}
+
+.form-editAlbum {
+  width: 812px !important;
+  height: 788px !important;
+}
+
+
+.album-photo-block {
+  float: right !important;
+  width: 378px;
+  margin-right: -7px;
+}
+
+.album-photo-block p {
+  width: 215px;
+}
+
+.album-photo-thumbnail {
+  max-width: 133px;
+  max-height: 133px;
+  margin: auto;
+}
+
+.album-photo-block-thumbnail {
+  width: 133px;
+  height: 133px;
+  float: left;
+  background-color: #fcfafa;
+  overflow: hidden;
+  outline: 1px solid #ccc;
+  display: flex;
+}
+
+.julia-album-grid {
+  width: 780px;
+  height: 1000px;
+  margin-left: -14px;
+  margin-top: 26px;
+}
+
+.photo-fixer {
+  margin-bottom: 16px;
+  width: 368px;
+  float: left !important;
+}
+
+.photo-fixer:nth-of-type(2n+1) {
+  margin-right: 40px;
+}
+
+.photo-fixer:last-child {
+  margin-bottom: 60px;
+}
+
+.photo-fixer div input, .photo-fixer div p {
+  margin-right: 0 !important;
+  margin-left: 3px !important;
+}
+
+
+.album-edit-footer {
+  background-color: #fff;
+  width: 812px;
+  height: 68px;
+  position: relative;
+  margin-top: -68px;
+}
+
+.album-edit-footer button {
+  margin-top: 16px !important;
+}
+
+.album-button {
+  margin-right: 16px !important;
+}

@@ -1,0 +1,199 @@
+/************************
+General
+************************/
+
+#modalJulia {
+  height: 234px;
+}
+
+#modalUser {
+  height: 264px;
+}
+
+#modalSuccess {
+  height: 162px;
+}
+
+#modalAdd {
+  height: 392px;
+
+}
+
+.text-success {
+  color: #434343 !important;
+  margin-top: 6px !important;
+}
+
+.modal {
+  width: 260px;
+  height: 392px;
+  margin: auto auto;
+  background-color: #fff;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal.fade {
+  display: none;
+}
+
+.error {
+  color: rgb(104, 0, 1);
+  transition: 1s;
+}
+
+.form-outer {
+  width: 260px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 6px 21px 6px;
+  margin: auto auto;
+}
+
+.form-delete {
+  height: 122px !important;
+}
+
+.form-button, .form-input, .form-select, .form-file {
+  border: rgba(43, 43, 43, 0.4) 1px solid;
+  transition: 0.5s ease-in-out;
+  outline: none;
+  background-color: #fff;
+}
+
+.description-input {
+  margin-left: 0 !important;
+  margin-top: 13px !important;
+  width: 373px !important;
+}
+
+.form-text {
+  float: right;
+  width: 100%;
+  margin: 0 0 11px 0;
+}
+
+.form-text p {
+  margin: 0 0 0 10px;
+}
+
+.form-text-bottom {
+  margin-bottom: -6px !important;
+}
+
+.form-header {
+  margin-bottom: 5px;
+}
+
+.form-header-distance {
+  margin-top: 11px;
+}
+
+
+
+/************************
+Button
+************************/
+
+.form-button {
+  height: 26px;
+  max-width: 230px;
+  margin: 5px 10px 5px 0;
+  padding: 5px 10px;
+  padding-bottom: 6px;
+  margin-top: 11px;
+  font-size: 16px;
+  line-height: 0px;
+  text-align: right;
+  border-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  color: #434343;
+  background-color: #fff;
+  border: #434343 1px solid;
+  float: right;
+}
+
+.form-button:hover {
+  color: #fff;
+  background: #434343;
+}
+
+.form-button:focus {
+  outline: none;
+}
+
+.button-delete {
+  margin-top: 4px;
+  z-index: 100;
+}
+
+.julia-button {
+  width: 100%;
+  margin-left: 10px;
+  text-align: center;
+  height: 38px;
+}
+
+.julia-button {
+  margin-top: 5px;
+}
+
+.btn-modal {
+  float: right;
+  height: 30px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  color: #434343;
+  line-height: 26px;
+  transition: color 0.5s ease-in-out;
+}
+
+.btn-modal:hover {
+  color: #ccc;
+}
+
+.btn-modal:focus {
+  outline: none;
+}
+
+
+
+/************************
+Input
+************************/
+
+.form-input:hover, .form-input:active, .form-input:focus, .form-select:hover, .form-file:hover {
+  border: #434343 1px solid;
+}
+
+.form-input {
+  width: 228px;
+  height: 34px;
+  margin: 5px 10px;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+
+
+/************************
+Select
+************************/
+
+.form-select {
+  width: 228px;
+  height: 38px;
+  margin: 5px 10px;
+  padding-left: 10px;
+  font-weight: 300;
+  border-radius: 0;
+  color: rgb(169, 169, 169);
+}
+
+.form-select:focus {
+  color: #434343;
+}

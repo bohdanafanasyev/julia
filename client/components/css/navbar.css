@@ -1,0 +1,146 @@
+
+/******************************
+Navigation
+******************************/
+
+
+.bg-none {
+  background-color: transparent !important;
+}
+
+.navbar {
+  height: 90px;
+  padding: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.flex-navbar {
+  display: -webkit-flex;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-link:hover, .nav-link, .logo, .logo:hover {
+  color: inherit;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin-left: 7px;
+  padding-bottom: 4px !important;
+}
+
+.nav:last-child {
+  margin-right: 37px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 26px;
+  margin-left: 37px;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #e1e1e1;
+  height: 2px;
+  transition: right 0.5s ease-in-out;
+  -webkit-transition: right 0.5s ease-in-out;
+}
+
+.nav-link:hover:after {
+  right: 0;
+}
+
+
+.nav-link-active:after {
+  right: 0;
+}
+
+
+
+/****************************
+Media queries
+****************************/
+
+@media only screen and (max-width: 679px) and (orientation:landscape) {
+  .navbar {
+    margin-top: -110px;
+  }
+
+  .layout, .slider {
+    margin-top: -110px;
+  }
+
+  .slide img {
+    right: -30vh;
+    width: auto;
+    height: 120vh;
+    margin-top: -110px;
+  }
+
+
+}
+
+@media only screen and (max-width: 679px) and (orientation:portrait) {
+  .navbar {
+    margin-top: 0;
+  }
+}
+
+
+@media screen and (max-width: 680px) {
+
+  .flex-navbar {
+    height: 111px;
+  }
+
+  .navbar-nav, .navbar-brand {
+    margin: 0 !important;
+  }
+
+  .navbar-nav {
+    padding-bottom: 17px;
+  }
+
+  .navbar-brand {
+    margin-top: -50px;
+  }
+
+  .main-navbar a {
+    margin: 0 2px !important
+  }
+
+  .flex-navbar {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+}

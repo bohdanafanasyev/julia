@@ -1,0 +1,183 @@
+/****************************
+Navigation
+****************************/
+
+.carousel-nav:after {
+  content: 'flickity';
+  display: none;
+}
+
+.carousel-nav .carousel-cell img{
+  max-height: 100px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.carousel-nav {
+  position: absolute;
+  top: calc(100% - 100px);
+  height: 80px;
+  width: 100%;
+}
+
+.carousel-nav .flickity-viewport {
+  cursor: default !important;
+  white-space: nowrap;
+
+}
+
+.nav-cell {
+  cursor: pointer !important;
+}
+
+.nav-cell img:hover {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+.nav-cell img {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition : -webkit-filter 1s ease-in-out;
+  -moz-transition : -moz-filter 1s ease-in-out;
+  -ms-transition : -ms-filter 1s ease-in-out;
+  -o-transition : -o-filter 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.is-nav-selected img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+
+/****************************
+Carousel
+****************************/
+
+.portfolioCarousel .flickity-viewport, .portfolioCarousel .flickity-slider {
+  height: 62vh !important;
+}
+
+.carousel:after {
+  content: 'flickity';
+  display: none;
+}
+
+.carousel .carousel-cell {
+  padding: 0 40px;
+}
+
+.carousel img {
+  display: block;
+  height: calc(62vh - 31px);
+  width: auto;
+}
+
+.carousel {
+  margin-top: 19vh;
+}
+
+.portfolioHover {
+  overflow: hidden;
+}
+
+.portfolioHover img {
+  -webkit-transition : -webkit-transform 10s ease-in-out;
+  -moz-transition : -moz-transform 10s ease-in-out;
+  -ms-transition : -ms-transform 10s ease-in-out;
+  -o-transition : -o-transform 10s ease-in-out;
+  transition: transform 10s ease-in-out;
+}
+
+.carousel-cell {
+  overflow: hidden;
+}
+
+
+.carousel-cell:hover .portfolioHover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1);
+  transform: scale(1.2);
+}
+
+
+
+/****************************
+Title
+****************************/
+
+.cover-title {
+  float: right;
+}
+
+.carousel-cell:hover .underline:before {
+  left: 0;
+}
+
+
+
+/****************************
+Media queries
+****************************/
+
+
+@media only screen and (max-width: 767px) {
+
+  /* disable Flickity for large devices */
+  .carousel:after, .carousel-nav:after {
+    content: '';
+  }
+
+  .carousel-nav {
+    display: none;
+  }
+
+  .portfolioCarousel {
+    width: calc(100vw - 45px);
+    margin: auto;
+    margin-top: 111px;
+  }
+
+  .portfolioCarousel .carousel-cell {
+    padding: 0 !important;
+    margin-top: 36px;
+    overflow: none;
+  }
+
+  .portfolioCarousel .carousel-cell:last-child {
+    margin-bottom: 36px;
+  }
+
+  .portfolioCarousel img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .portfolioCarousel img {
+    display: block;
+    height: calc(62vh - 81px);
+  }
+
+  .portfolioCarousel {
+    margin-top: calc(19vh + 25px);
+  }
+}

@@ -1,0 +1,542 @@
+/********************************
+GENERAL
+*********************************/
+
+.juliaStory {
+  margin-top: 0 !important;
+  padding-top: 58px;
+}
+
+
+/********************************
+Link Hover
+*********************************/
+
+.link-hover {
+  display: inline-block;
+  position: relative;
+}
+
+.link-hover:after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0 !important;
+  right: 100% !important;
+  bottom: 0;
+  background: #e1e1e1 !important;
+  height: 1px;
+  -webkit-transition: right .5s ease-in-out;
+  -moz-transition: right .5s ease-in-out;
+  -os-transition: right .5s ease-in-out;
+  -o-transition: right .5s ease-in-out;
+  transition: right .5s ease-in-out;
+}
+
+.link-hover:hover:after {
+  right: 0 !important;
+}
+
+
+
+/********************************
+Fonts
+*********************************/
+
+.about p, .follow {
+  font-size: 14px;
+}
+
+
+
+/********************************
+Cursors
+*********************************/
+
+div.item img {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+.aboutJulia-header, .about p, .contact-header, .barcelona, .friends, .thank-you, #ul li, .dragImages {
+  cursor: default;
+}
+
+
+
+/*********************
+SLIDER
+*********************/
+
+.aboutLayout {
+  background: white;
+}
+
+.slider-image {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+
+.slide img {
+  -webkit-transition: -webkit-transform 10s ease;
+  -moz-transition:    -moz-transform 10s ease;
+  -ms-transition:     -ms-transform 10s ease;
+  -o-transition:      -o-transform 10s ease;
+  transition:         transform 10s ease;
+  margin-top: 90px;
+
+}
+
+.slider {
+	overflow: hidden;
+  margin-top: 90px;
+}
+
+.slider:hover img {
+  -webkit-transform: scale(1.015);
+  -moz-transform: scale(1.015);
+  -ms-transform: scale(1.015);
+  -o-transform: scale(1.015);
+  transform: scale(1.015);
+}
+
+
+
+/********************************
+JULIA'S STORY
+*********************************/
+
+.aboutJulia-header {
+  margin-top: 88px;
+  margin-bottom: -15px;
+  font-size: 20px;
+  color: #434343;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+}
+
+.about p {
+
+  text-align: justify;
+  font-weight: 300;
+  color: #434343;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+
+}
+
+
+/********************************
+CONTACT
+*********************************/
+
+
+.contact-header {
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.telephone {
+  margin: 14px 0;
+}
+
+.telephone li {
+   display: inline-block;
+   position: relative;
+   top: -12px;
+}
+
+.phone a {
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+ul.mail, ul.telephone {
+   padding-left: 0;
+}
+
+
+.mail li {
+  font-weight: 100;
+   display: block;
+   margin-top: 23px;
+}
+
+.mail li a {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.barcelona {
+  padding-top: 1px;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 3px;
+}
+
+
+
+/********************************
+JULIA & friends
+*********************************/
+
+.friends {
+  margin-top: 59px;
+}
+
+.thank-you {
+  margin-top: 25px;
+  font-weight: 100;
+  text-align: center;
+  left: 4px;
+}
+
+.header {
+  padding-top: 40px;
+  margin-bottom: 13px;
+  color: #434343;
+  font-weight: 300;
+  z-index: 1000;
+  text-align: center;
+}
+
+.panel-heading a {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.panel-heading {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.peopleBlock {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction:  column;
+  flex-direction: column;
+}
+
+.peopleBlock p {
+  text-align: center;
+}
+
+.peopleBlock a {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+
+
+/********************************
+DISCOVER MORE OF JULIA PLASHKIN
+*********************************/
+
+
+.social {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  position: relative;
+  top: 38px;
+  margin: 0 auto;
+  width: 280px;
+  height: 60px;
+}
+
+.socialAboutBox {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.social a {
+  float: left;
+}
+
+.socialAboutBox:hover .socialAbout {
+  opacity: 1;
+}
+
+.socialAboutBox:hover .overMask {
+  opacity: 0;
+}
+
+.socialAbout {
+  width: 60px;
+  height: 60px;
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -os-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  opacity: 0;
+}
+
+.overMask {
+  opacity: 1;
+  display: inline-block;
+  margin-left: -60px;
+  color: transparent;
+  -webkit-transition: opacity 0.38s;
+  -moz-transition: opacity 0.38s;
+  -os-transition: opacity 0.38s;
+  -o-transition: opacity 0.38s;
+  transition: opacity 0.38s;
+}
+
+.aboutYoutube, .aboutFacebook, .aboutYoutubeInvert, .aboutFacebookInvert {
+  width: inherit;
+  height: inherit;
+  background-size: cover;
+}
+
+.social div:last-child {
+  width: 53px;
+  height: 53px;
+}
+
+.aboutYoutube {
+  background-image: url('../../../../images/mask/youtube.svg');
+}
+
+.aboutFacebook {
+  background-image: url('../../../../images/mask/facebook.svg');
+}
+
+.aboutInstagram, .aboutInstagramInvert {
+  background-size: cover;
+  width: inherit;
+  height: inherit;
+}
+
+.aboutInstagram {
+  background-image: url('../../../../images/mask/instagram.svg');
+}
+
+.aboutYoutubeInvert {
+  background-image: url('../../../../images/mask/youtubeInvert.png');
+}
+
+.aboutFacebookInvert {
+  background-image: url('../../../../images/mask/facebookInvert.png');
+}
+
+.aboutInstagramInvert {
+  background-image: url('../../../../images/mask/instagramInvert.png');
+  margin-right: 7px !important;
+}
+
+
+/********************************
+CAROUSEL
+*********************************/
+
+.dragImages {
+  margin-top: 89px;
+}
+
+.dragImages p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.carousel-about img {
+  height: 260px !important;
+  margin-right: 0px !important;
+}
+
+.carousel-about {
+  margin-top: 17px !important;
+}
+
+.carousel-about .carousel-cell {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/********************************
+Media queries
+*********************************/
+
+@media screen and (max-width: 679px) {
+
+  .juliaStory {
+    padding-top: 36px;
+  }
+
+  .slide img {
+    margin-top: 90px;
+    height: calc(62vh);
+    width: auto;
+    right: -50vw;
+  }
+
+  .aboutLayout {
+    width: 100vw;
+    overflow-y: hidden;
+  }
+
+  .social {
+    width: 200px;
+  }
+
+  .socialAboutBox {
+    width: 40px;
+    height: 40px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .social div:first-child {
+    margin-left: 0 !important;
+  }
+
+  .social div:last-child {
+    width: 35px;
+    height: 35px;
+  }
+
+  .socialAboutBox a {
+    margin-right: 20px;
+  }
+
+  .carousel-about {
+    width: 100vw !important;
+  }
+
+  .carousel-about img {
+    width: auto !important;
+  }
+
+  .aboutInstagramInvert {
+    margin-right: 25px !important;
+  }
+
+  .aboutYoutube:hover, .aboutFacebook:hover, .aboutInstagram:hover  {
+    opacity: 1 !important;
+  }
+
+}
+
+
+@media screen and (min-width: 320px) {
+
+	.aboutJulia-header {
+		margin-top: 58px;
+		font-size: 13px;
+	}
+
+	.about p {
+		margin-top: 25px;
+		max-width: 85%;
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+
+	ul.telephone {
+		font-size: 13px;
+	}
+
+	.mail li a, .phone a, .barcelona {
+		font-size: 13px;
+	}
+
+	h1.friends {
+		margin-top: 35px;
+	}
+
+	h1.discover {
+		margin-top: 55px;
+	}
+
+
+@media screen and (min-width: 660px) {
+
+	.aboutJulia-header {
+		margin-top: 58px;
+		font-size: 16px;
+	}
+
+	.about p {
+		margin-top: 25px;
+		max-width: 85%;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+
+	ul.telephone {
+		font-size: 14px;
+	}
+
+	.mail li a, .phone a, .barcelona {
+		font-size: 14px;
+	}
+
+	h1.friends {
+		margin-top: 35px;
+	}
+
+	h1.discover {
+		margin-top: 55px;
+	}
+
+}
+
+
+@media screen and (min-width: 1050px) {
+
+.social {
+  top: 50px;
+}
+
+.dragImages {
+    margin-top: 102px;
+}
+
+.about p {
+  text-align: justify;
+  font-weight: 300;
+  color: #434343;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.mail li {
+   display: block;
+   margin-top: 38px;
+}
+
+.friends {
+  margin-top: 59px;
+}
+
+.thank-you {
+  margin-top: 39px;
+  font-weight: 100;
+  text-align: center;
+  left: 4px;
+}
