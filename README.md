@@ -35,7 +35,12 @@ It consists of two main parts, the presentation one for the visitors and adminis
 <br>
 ## Usage
 
-####If you would like to experiment with this project on your own
+Feel free to clone and experiment with project on your own.
+
+#### In case when you don't have Meteor or MongoDB run
+
+##### Install Meteor
+`curl https://install.meteor.com/ | sh`
 
 
 
