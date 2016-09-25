@@ -16,3 +16,9 @@ It consists of two main parts, the presentation one for the visitors and adminis
 ## Build
 
 #### Server
+
+[Meteor.js](https://github.com/meteor/meteor)
+
+#### DataBase
+
+[MongoDb](https://github.com/mongodb/mongo)
