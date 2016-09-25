@@ -37,11 +37,11 @@ It consists of two main parts, the presentation one for the visitors and adminis
 
 Feel free to clone and experiment with project on your own.
 
-#### In case when you don't have Meteor or MongoDB run
-
-##### Install Meteor
+##### Quick Meteor install 
 `curl https://install.meteor.com/ | sh`
 
+##### MongoDB Installation
+You can proceed to the [this link](https://docs.mongodb.com/manual/installation/) in order get your version of MongoDB
 
 
 <br>
