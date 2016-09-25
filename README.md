@@ -33,6 +33,9 @@ It consists of two main parts, the presentation one for the visitors and adminis
 [Moment](https://github.com/moment/moment) - a lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
 
 <br>
+## Usage
+
+<br>
 ## License
 
 Current project is under [MIT License](https://opensource.org/licenses/MIT) 
