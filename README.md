@@ -26,3 +26,7 @@ It consists of two main parts, the presentation one for the visitors and adminis
 #### FrontEnd
 
 [React](https://github.com/facebook/react) - a JavaScript library for building user interfaces.
+
+#### Additional Resources
+
+[Flickity](https://github.com/metafizzy/flickity) - touch, responsive, flickable carousels
