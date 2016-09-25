@@ -36,5 +36,6 @@ It consists of two main parts, the presentation one for the visitors and adminis
 ## License
 
 Current project is under [MIT License](https://opensource.org/licenses/MIT) 
-<br>**Important Note**
+
+####Important Note
 The [flickity carousel](https://github.com/metafizzy/flickity) implemented into this project in under [GNU GPL license v3] https://www.gnu.org/licenses/gpl-3.0.html. And also requires a commercial one if you are willing to develop commercial sites, themes, projects, and applications.
