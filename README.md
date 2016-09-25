@@ -49,7 +49,7 @@ You can proceed to the [this link](https://docs.mongodb.com/manual/installation/
 2. Run `npm install` to get all the dependencies<br>
 3. Run `meteor` to start up the server on `localhost:3000`<br>
 
-####Important Note
+###Important Note
 The About page in dependent on data provided from MongoDB and it's empty by default.
 
 <br>
