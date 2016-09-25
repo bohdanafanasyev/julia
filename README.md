@@ -51,7 +51,7 @@ You can proceed to the [this link](https://docs.mongodb.com/manual/installation/
 
 ###Important Note
 In order to get access to control over the content navigate to `localhost:3000/julia` <br>
-#####login: `julia@universe.com`<br> 
+#####login: `julia@universe.com`
 #####password: `1234567890 `
 
 <br>
