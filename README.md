@@ -50,7 +50,9 @@ You can proceed to the [this link](https://docs.mongodb.com/manual/installation/
 3. Run `meteor` to start up the server on `localhost:3000`<br>
 
 ###Important Note
-The About page in dependent on data provided from MongoDB and it's empty by default. In order to make it work using your browser navigate to localhost:3000/julia and using the interface add text and image to your taste.
+In order to get access to control over the content navigate to `localhost:3000/julia` use 
+`login: julia@universe.com as<br>
+password: 1234567890 `
 
 <br>
 ## License
