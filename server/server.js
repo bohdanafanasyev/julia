@@ -25,42 +25,42 @@ Meteor.startup(() => {
   if (!About.find().count() >= 1) {
     About.insert({
       _id: "aboutpage",
-      landscapeImage: "",
-        description: "",
-        email: "",
-        phone: "",
-        city: "",
-        country: "",
+      landscapeImage: "http://lorempixel.com/g/1200/600/abstract/",
+        description: "This wonderful name originally comes from the Latin, which means youthful and vivacious. It also represents inner desire for order and physical creativity, besides it's a name of a great woman that gave birth to one little boy, which grew up with a big and generous heart .",
+        email: "julia@wonderland.eh",
+        phone: "+ 1 597 364 280",
+        city: "Earty",
+        country: "Universe",
         photos: {
           One: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/481/abstract/"
           },
           Two: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/482/abstract/"
           },
           Three: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/483/abstract/"
           },
           Four: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/484/abstract/"
           },
           Five: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/485/abstract/"
           },
           Six: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/486/abstract/"
           },
           Seven: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/487/abstract/"
           },
           Eight: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/488/abstract/"
           },
           Nine: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/489/abstract/"
           },
           Ten: {
-            photo: ""
+            photo: "http://lorempixel.com/g/640/480/abstract/"
           }
        }
     })
