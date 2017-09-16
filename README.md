@@ -11,7 +11,7 @@ It consists of two main parts, the presentation one for the visitors and adminis
 2. **Portfoli**o will display your works as slick horizontal slider. 
 3. **About** to present brief description about our personality.
 4. **Julia** control panel for easy management of all content across the website.
-
+<br />
 
 ## Build
 
