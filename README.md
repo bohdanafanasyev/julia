@@ -1,7 +1,7 @@
 # Julia
 
 Julia Opensource Portfolio, you can visit it's presentation on [**behance.net**](https://www.behance.net/gallery/43176751/Julia-Presentation-Open-Source-Portfolio-Code).
-<br />
+<br /><br />
 
 ## Description
 
@@ -11,7 +11,7 @@ It consists of two main parts, the presentation one for the visitors and adminis
 2. **Portfoli**o will display your works as slick horizontal slider. 
 3. **About** to present brief description about our personality.
 4. **Julia** control panel for easy management of all content across the website.
-<br>
+
 
 ## Build
 
@@ -31,7 +31,7 @@ It consists of two main parts, the presentation one for the visitors and adminis
 
 [Flickity](https://github.com/metafizzy/flickity) - touch, responsive, flickable carousels<br>
 [Moment](https://github.com/moment/moment) - a lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
-<br>
+<br><br />
 
 ## Usage
 
