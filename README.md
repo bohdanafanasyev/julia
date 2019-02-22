@@ -49,7 +49,7 @@ You can proceed to the [this link](https://docs.mongodb.com/manual/installation/
 2. Run `npm install` to get all the dependencies<br>
 3. Run `meteor` to start up the server on `localhost:3000`<br>
 
-###Important Note
+### Important Note
 In order to get access to control over the content navigate to `localhost:3000/julia` <br>
 **login:** `julia@universe.com`<br>
 **password:** `1234567890`<br>
